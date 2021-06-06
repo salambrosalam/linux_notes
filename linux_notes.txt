@@ -1,1 +1,33 @@
 Hi, here will be some notes about linux, from essentials to pro :)
+
+--------------------------------------------------------------------------
+
+Some basics command:
+
+To check time:
+>uptime(will show current time
+
+To check user details:
+>uname -a (show all details)
+
+To check processor:
+>lscpu (show all processor details)
+
+Linux will check all executive commands in $PATH
+
+To write text:
+>echo "Hello World"
+
+To find some command:
+>man -k "time"(will show commands, about time)
+>man uptime(manual about "uptime" command)
+
+>whatis (description of command)
+>whereis (show location of current command)
+>locate (location of some file)
+
+To check running process:
+>ps
+>fg(to run suspended process)
+
+----------------------------------------------------------------------------
