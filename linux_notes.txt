@@ -105,11 +105,48 @@ To cut some file:
 
 To find something:
 >grep *some word* *path where should searching*(will find all files with this template)
+>grep -E [A-Za-z_0-9]*@[A-Za-z]*.[a-z]* email.txt (to find emails)
+
+-------------------------------------------------------------------------------------------
+
+Output with files
+
+To output file:
+>sort names.txt > names_sorted.txt (this command will out sorted content to file names_sorted.txt, this command will overwrite all content in file)
+>sort names.txt >> names_sorted.txt (this command will append output file)
+>grep salam /etc/* 2> errors.txt (this command will search and show all "salam" in /etc/* and errors will save in errors .txt)
+>grep salam /etc/* &> results.txt (this command will save errors and output to one file)
+
+--------------------------------------------------------------------------------------------
+
+Archives
+
+To create archive:
+>tar cvf mytar.tar dir1(this command will create tar and if dir is EXISTS will push him to tar)
+>tar tf mytar.tar (check what contains this tar)
+>tar xvf mytar.tar (untar package)
+
+To compress file:
+>gzip mytar.tar(will compress file)
+>gunzip mytar.tar.gz(will uncompress file)
+
+>bzip2 mytar.tar(will compress file)
+>bunzip2 mytar.tar.gz(will uncompress file)
+
+>xz mytar.tar(will compress file)
+>unxz mytar.tar.gz(will uncompress file)
+
+To archive and compress:
+>tar cvzf mygzip.gz dir1(will creates gzip file and compress all content)
+>tar cvjf mybzip.bz dir1(will creates bzip file and compress all content)
+>tar cvJf myxz.xz dir1(will creates xzip file and compress all content)
+>zip -r myzip.zip dir1(will creates zip file and compress all content)
 
 
+>tar xvf mybzip.bz(will unpack bzip file)
+>unzip myzip(will unpack zip file)
 
-
-
+--------------------------------------------------------------------------------------------
 
 
 
