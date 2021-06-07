@@ -84,6 +84,33 @@ To create link:
 >ln -s /home/salam/linux_notes /home/salam/Desktop/link (Will create link(icon) on desktop of this folder)
 >ln *file* *file* (creates duplicate of some file)
 
+---------------------------------------------------------------------------------------------
+
+Process with files
+
+How to find some files:
+>find /home -name "file*.txt"(will find files which name file...txt in the home dir)
+
+How to find entity charts:
+>wc *somefile.txt* (will show how much chars inside)
+
+To sort some files:
+>sort *names.txt* (will sort names by alphabet)
+>sort -r *names.txt* (will sort names by reverse alphabet)
+>sort -n *numbers.txt* (will sort numbers)
+
+
+To cut some file:
+>cut -d ">" (sort file after delemiter ">")
+
+To find something:
+>grep *some word* *path where should searching*(will find all files with this template)
+
+
+
+
+
+
 
 
 
