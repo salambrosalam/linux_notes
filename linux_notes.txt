@@ -47,7 +47,44 @@ Hidden directories marked by dots(".")
 
 When user in home directory he can see "~"
 
- 
+------------------------------------------------------------------------------
+
+Linux Files, Folders
+
+To show output of files:
+>cat *name of file*
+>more *name of file*(will show file with ability scrolling)
+>less *name of file*(will show file with ability scorlling)
+
+To touch some files:
+>touch *name of file, directory*(if file not exists, will create him, or updates time of "touched")
+
+To copy file:
+>cp *name of target file* *name of file or directory where will be copied*
+EXAMPLE:
+>cp newf.txt ~/Desktop (will create copy of this file on the Desktop)
+>cp newf*.* ~/Desktop (will create copy of all files like "newf" on the Desktop)
+>cp newf?.txt -v Dir2(will create copy of all files like "newf" on the /Dir2, -v will show copying of every file)
+>cp -R *target dir* *end dir* (will copy non-empty directroy to another directory)
+
+To cut or rename file:
+>mv secret.txt secret228.txt(will rename secret.txt => secret228.txt)
+>mv secret.txt ~/Desktop (will cut file and paste on the Desktop)
+
+
+To remove file:
+>rm *target file or empty dir*
+>rm -r *non-empty dir*
+
+To create directory:
+>mkdir *name of directory*(will creates dir)
+>mkdir -p Dir1/Dir2 (will create dir2 in the dir1)
+
+To create link:
+>ln -s /home/salam/linux_notes /home/salam/Desktop/link (Will create link(icon) on desktop of this folder)
+>ln *file* *file* (creates duplicate of some file)
+
+
 
 
 
