@@ -31,3 +31,27 @@ To check running process:
 >fg(to run suspended process)
 
 ----------------------------------------------------------------------------
+
+Linux Directories
+
+/ - The MAIN directory which contains all directories
+
+All another disks will be in - /media
+
+To show list of directories:
+>ls
+>ls -l (long version with permissions)
+>ls -ls (show all directories with hidden)
+
+Hidden directories marked by dots(".")
+
+When user in home directory he can see "~"
+
+ 
+
+
+
+
+
+
+
