@@ -148,6 +148,29 @@ To archive and compress:
 
 --------------------------------------------------------------------------------------------
 
+Processes, etc.
+
+To show task manager:
+>top(show task manager)
+
+To check RAM:
+>free -h(show RAM)
+
+To check process:
+>ps -aux (shows all process and assigned users)
+
+To check log files:
+> /var/log(all log files)
+
+To check kernel log:
+>dmesg(show log TEMPERARY LOG, which is exists only when PC is works)
+
+
+
+
+
+
+
 
 
 
